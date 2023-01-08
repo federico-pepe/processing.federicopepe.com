@@ -1,5 +1,14 @@
 site_name: Manuale italiano di Processing
 
+nav: 
+  - Home: 'index.md'
+  - 'Introduzione':
+    - 'Programmazione, creative coding e arte digitale': 'introduzione/programmazione-creative-coding-e-arte-digitale.md'
+    - 'Introduzione a Processing': 'introduzione/introduzione-a-processing.md'
+  - 'Primi passi':
+    - 'Schermo, pixel e linee': 'getting-started/schermo-pixel-linee.md'
+  - 'Newsletter': 'https://www.tinyletter.com/creativecoding'
+  
 extra_css:
   - stylesheets/extra.css
 
@@ -18,11 +27,30 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Passa al tema chiaro
+  features:
+    - navigation.footer
+
+copyright: 2015-2023 Federico Pepe. All the documentation is licensed under a CC-BY license. All the code examples are licensed under MIT License.
+
+extra:
+  generator: false
+  social:
+    - icon: material/information
+      link: https://fdri.co/bio
+    - icon: material/github
+      link: https://github.com/federico-pepe/processing.federicopepe.com
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg

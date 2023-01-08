@@ -13,4 +13,4 @@ Dato il mio interesse sia in ambito informatico che artistico, ho cominciato ad 
 
 Questo post vuole essere un'introduzione a un progetto che ho deciso di portare avanti nei prossimi mesi: diffondere la cultura del creative coding attraverso un corso facilmente accessibile che spieghi le basi della programmazione. Il linguaggio che ho scelto è Processing: uno dei più diffusi in questo ambito e, nel contempo, uno dei più semplici da imparare.
 
-Se siete interessati a rimanere aggiornati sul creative coding e sugli sviluppi futuri di questo progetto, potete iscrivervi alla newsletter dedicata cliccando qui.
+Se siete interessati a rimanere aggiornati sul creative coding e sugli sviluppi futuri di questo progetto, potete iscrivervi alla newsletter dedicata [cliccando qui](https://www.tinyletter.com/creativecoding).
