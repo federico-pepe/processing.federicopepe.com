@@ -1,4 +1,5 @@
 site_name: Manuale italiano di Processing
+site_url: https://processing.federicopepe.com
 
 nav: 
   - Home: 'index.md'
