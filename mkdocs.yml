@@ -6,7 +6,8 @@ nav:
     - 'Programmazione, creative coding e arte digitale': 'introduzione/programmazione-creative-coding-e-arte-digitale.md'
     - 'Introduzione a Processing': 'introduzione/introduzione-a-processing.md'
   - 'Primi passi':
-    - 'Schermo, pixel e linee': 'getting-started/schermo-pixel-linee.md'
+    - 'Schermo, pixel e linee': 'primi-passi/schermo-pixel-e-linee.md'
+    - 'Primitive 2D': 'primi-passi/primitive-2d-point-line-rect-ellipse-triangle.md'
   - 'Newsletter': 'https://www.tinyletter.com/creativecoding'
   
 extra_css:
