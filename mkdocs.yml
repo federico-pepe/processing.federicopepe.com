@@ -9,6 +9,7 @@ nav:
   - 'Primi passi':
     - 'Schermo, pixel e linee': 'primi-passi/schermo-pixel-e-linee.md'
     - 'Primitive 2D': 'primi-passi/primitive-2d-point-line-rect-ellipse-triangle.md'
+    - 'Colori RGB': 'primi-passi/colori-rgb.md'
   - 'Newsletter': 'https://www.tinyletter.com/creativecoding'
   
 extra_css:
@@ -35,6 +36,19 @@ theme:
 copyright: 2015-2023 Federico Pepe. All the documentation is licensed under a CC-BY license. All the code examples are licensed under MIT License.
 
 extra:
+  analytics:
+    provider: google
+    property: G-XMHNGPLG5R
+  consent:
+    cookies:
+      analytics: Google Analytics
+      github: GitHub
+    title: 🍪 Informativa privacy e cookies
+    description: 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
   generator: false
   social:
     - icon: material/information

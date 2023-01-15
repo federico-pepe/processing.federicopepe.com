@@ -1,6 +1,5 @@
 ---
 title: "Primitive 2D: point(), line(), rect(), ellipse(), triangle()"
-date: "2015-07-29"
 ---
 
 Nel [capitolo precedente](/primi-passi/schermo-pixel-e-linee) abbiamo realizzato il nostro primo sketch disegnando una linea sullo schermo in Processing. Proseguiamo il nostro percorso con una panoramica sulle altre forme di base, chiamate primitive 2D, che utilizzeremo di frequente nei nostri programmi futuri.

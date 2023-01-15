@@ -31,16 +31,16 @@ Se ti interessa ricevere aggiornamenti via email, ho creato [una newsletter](htt
 
 Come ho già scritto, l'approccio inclusivo e open source dell'intera comunità di Processing è stato fondamentale per imparare a programmare e per migliorarmi in tutti questi anni. Ci tengo, comunque, a fare dei riconoscimenti specifici a quelle persone o a quelle risorse che mi hanno dato tanto e da cui ho preso - e ancora oggi prendo - ispirazione ogni giorno.
 
-* :teacher: **[Daniel Shiffman](https://shiffman.net/)** è la persona a cui devo più di tutti. Ho imparato Processing grazie ai suoi video pubblicati prima su Vimeo e poi su YouTube sul canale **[The Coding Train](https://www.youtube.com/@TheCodingTrain)**.
+* :material-school: **[Daniel Shiffman](https://shiffman.net/)** è la persona a cui devo più di tutti. Ho imparato Processing grazie ai suoi video pubblicati prima su Vimeo e poi su YouTube sul canale **[The Coding Train](https://www.youtube.com/@TheCodingTrain)**.
 
-* :blue_book: **Processing: A Programming Handbook for Visual Designers, Second Edition** di *Casey Reas* e *Ben Fry*.
+* :material-book: **Processing: A Programming Handbook for Visual Designers, Second Edition** di *Casey Reas* e *Ben Fry*.
 
-* :orange_book: **Learning Processing, Second Edition: A Beginner's Guide to Programming Images, Animation, and Interaction** di *Daniel Shiffman*
+* :material-book: **Learning Processing, Second Edition: A Beginner's Guide to Programming Images, Animation, and Interaction** di *Daniel Shiffman*
 
-* :closed_book: **Generative Art** di *Matt Pearson*
+* :material-book: **Generative Art** di *Matt Pearson*
 
-* :green_book: **Programming Interactivity** di *Joshua Noble*
+* :material-book: **Programming Interactivity** di *Joshua Noble*
 
-* :blue_book: **Visualizing Data** di *Ben Fry*
+* :material-book: **Visualizing Data** di *Ben Fry*
 
-* :orange_book: **Generative Design** di *Hartmut Bohnacker, Benedikt Gross, Julia Laub, e Claudius Lazzeroni*
+* :material-book: **Generative Design** di *Hartmut Bohnacker, Benedikt Gross, Julia Laub, e Claudius Lazzeroni*
