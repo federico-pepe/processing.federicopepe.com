@@ -39,6 +39,20 @@ extra:
   analytics:
     provider: google
     property: G-XMHNGPLG5R
+    feedback:
+      title: Come valuti il contenuto di questa pagina?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Questa pagina mi è stata d'aiuto
+          data: 1
+          note:
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: Potrebbe essere migliorata 
+          data: 0
+          note:
+            Grazie per il feedback! Puoi aiutarci a migliorare
+            aprendo una segnalazione <a href="https://github.com/federico-pepe/processing.federicopepe.com/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
   consent:
     cookies:
       analytics: Google Analytics
