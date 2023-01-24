@@ -12,7 +12,7 @@ Se vi trovate in questa situazione, anziché andare per tentativi e perdere temp
 
 Sul sito di Processing all'indirizzo [https://processing.org/reference/](https://processing.org/reference/) trovate l'elenco di tutte le funzioni disponibili in questo linguaggio, cliccando su una di esse – potete provare, ad esempio, a cliccare su [_line()_](https://processing.org/reference/line_.html) – troviamo il dettaglio di quella funzione: _nome, esempi, descrizione, sintassi e parametri_.
 
-![Uno screenshot che mostra la barra del menu all'interno di Processing in cui è selezionata la voce Help e vengono mostrate tutte le voci nel relativo sottomenu: Environment, Reference, Find in Reference, Getting Started, Troubleshooting, Frequently Asked Question, The Processing Foundation, Visit Processing.org](/assets/img/Processing-Reference-1024x393.png) 
+![Uno screenshot che mostra la barra del menu all'interno di Processing in cui è selezionata la voce Help e vengono mostrate tutte le voci nel relativo sottomenu: Environment, Reference, Find in Reference, Getting Started, Troubleshooting, Frequently Asked Question, The Processing Foundation, Visit Processing.org](/assets/images/Processing-Reference-1024x393.png) 
 
 Se non abbiamo accesso a internet, quando installiamo Processing sul nostro computer viene copiata sul nostro hard disk anche una copia completa e aggiornata del Reference. Per aprirla è sufficiente cliccare sul menu `Help > Reference`
 
@@ -38,7 +38,7 @@ Quando clicchiamo su una funzione, troviamo le seguenti sezioni:
 
 ### Punto – point()
 
-![Uno screenshot di uno sketch di Processing con lo sfondo grigio e un punto nero al centro dello sketch](/assets/img/sketch_150728b_Processing_point-988x1024.png)
+![Uno screenshot di uno sketch di Processing con lo sfondo grigio e un punto nero al centro dello sketch](/assets/images/sketch_150728b_Processing_point-988x1024.png)
 
 La funzione _point()_ disegna un punto di dimensione pari a 1 pixel sullo schermo. Quando lavoriamo in 2D, accetta due parametri: **x** e **y** che sono, rispettivamente, la coordinata orizzontale e quella verticale.
 
@@ -51,7 +51,7 @@ Il punto, di colore nero, è stato disegnato al centro della finestra nella pos
 
 ### Linea – line()
 
-![Uno screenshot di uno sketch di Processing con lo sfondo grigio una linea nera disegnata](/assets/img/Processing_line-988x1024.png)
+![Uno screenshot di uno sketch di Processing con lo sfondo grigio una linea nera disegnata](/assets/images/Processing_line-988x1024.png)
 
 Della funzione _line()_ abbiamo già discusso ma, per completezza, non potevo escluderla da questo post. A differenza di point(), per disegnare una linea abbiamo bisogno di quattro parametri: x e y del punto di partenza e di arrivo.
 
@@ -78,7 +78,7 @@ Queste due linee di codice si possono quindi tradurre in:
 
 Ecco l'immagine che verrà prodotta:
 
-![Uno screenshot di uno sketch di Procesing con lo sfondo grigio e un rettangolo bianco con bordo nero disegnato in basso a destra](/assets/img/sketch_150728b_Processing_rect-988x1024.png)
+![Uno screenshot di uno sketch di Procesing con lo sfondo grigio e un rettangolo bianco con bordo nero disegnato in basso a destra](/assets/images/sketch_150728b_Processing_rect-988x1024.png)
 
 Come avrete sicuramente notato, così come per lo schermo il punto di origine è sempre l'angolo in alto a sinistra, anche per i rettangoli viene considerato di default come punto di origine lo stesso angolo della forma. Se vogliamo modificare questo comportamento esiste una funzione chiamata **_[rectMode()](https://processing.org/reference/rectMode_.html)_**_._ 
 
@@ -92,7 +92,7 @@ rect(250, 250, 100, 150);
 
 Ed ecco come cambia il risultato:
 
-![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato lo stesso rettangolo dell'immagine precedente ma, questa volta, allineato al centro della finestra](/assets/img/sketch_150728d_Processing_rectMode-988x1024.png)
+![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato lo stesso rettangolo dell'immagine precedente ma, questa volta, allineato al centro della finestra](/assets/images/sketch_150728d_Processing_rectMode-988x1024.png)
 
 Dal momento che il computer esegue in ordine un'operazione alla volta, dobbiamo ovviamente impostare rectMode() _prima_ di disegnare il rettangolo, altrimenti l'istruzione verrà ignorata.
 
@@ -107,7 +107,7 @@ size(500, 500);
 ellipse(250, 250, 150, 150);
 ```
 
-![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato un cerchio bianco con bordo nero al centro della finestra](/assets/img/sketch_150728e_Processing_ellipse-988x1024.png)
+![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato un cerchio bianco con bordo nero al centro della finestra](/assets/images/sketch_150728e_Processing_ellipse-988x1024.png)
 
 Da notare che esiste la funzione _**[ellipseMode()](https://processing.org/reference/ellipseMode_.html)**_ ma, a differenza dei rettangoli, di default il punto di riferimento degli ellissi e dei cerchi è sempre il centro della forma.
 
@@ -120,6 +120,6 @@ size(500, 500);
 triangle(250, 200, 300, 300, 200, 300);
 ```
 
-![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato un triangolo bianco con bordo nero al centro della finestra](/assets/img/sketch_150728f_Processing_triangle-988x1024.png)
+![Uno screenshot di uno sketch di Procesing con lo sfondo grigio con disegnato un triangolo bianco con bordo nero al centro della finestra](/assets/images/sketch_150728f_Processing_triangle-988x1024.png)
 
 Queste sono le forme che utilizzeremo maggiormente nei nostri prossimi esercizi. Come indicato nel reference, tra le primitive 2D ci sono altre due funzioni: **[quad()](https://processing.org/reference/quad_.html)** e **[arc()](https://processing.org/reference/arc_.html)** che in questo momento non è il caso di approfondire.

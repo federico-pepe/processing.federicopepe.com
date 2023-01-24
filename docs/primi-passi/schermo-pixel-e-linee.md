@@ -5,7 +5,7 @@ date: "2015-07-22"
 
 Una volta scaricato e installato Processing, è arrivato il momento di cominciare sporcarsi le mani e a programmare il nostro primo _sketch_. Se apriamo l'IDE e clicchiamo sul pulsante _Run_ senza scrivere alcuna riga di codice, dopo qualche secondo comparirà una finestra simile a quella nell'immagine qui sotto.
 
-![Il nostro primo sketch in Processing.](/assets/img/Processing_primo_sketch-275x300.png)
+![Il nostro primo sketch in Processing.](/assets/images/Processing_primo_sketch-275x300.png)
 
 Complimenti! Questo è il vostro primo programma _funzionante_ realizzato con questo linguaggio di programmazione. Mi rendo conto che per molti, a prima vista, potrebbe non sembrare una grande conquista ma vi assicuro che se avessimo dovuto raggiungere lo stesso risultato con altri linguaggi, non sarebbe stato così semplice.
 
@@ -17,11 +17,11 @@ Il pixel è dunque la nostra **unità di misura** e la sua dimensione è così 
 
 Quando alle elementari abbiamo cominciato a disegnare punti, linee e forme geometriche sulla carta millimetrata, siamo stati abituati a lavorare all'interno di un **piano cartesiano** con punto di origine (0, 0) normalmente posizionato al centro del foglio come nell'immagine seguente.
 
-![Un piano cartesiano "tradizionale".](/assets/img/Processing_piano_cartesiano.png)
+![Un piano cartesiano "tradizionale".](/assets/images/Processing_piano_cartesiano.png)
 
 La differenza principale rispetto a come siamo sempre stati abituati a ragionare è che sullo schermo del computer il punto di origine non si trova al centro ma nell'angolo in alto a sinistra.
 
-![Coordinate Schermo](/assets/img/Processing_piano_schermo.png)
+![Coordinate Schermo](/assets/images/Processing_piano_schermo.png)
 
 Come è facile intuire, il vantaggio di questo sistema è che qualsiasi punto sullo schermo ha sempre un valore positivo; questo ci tornerà molto utile quando cominceremo a fare dei programmi più complessi.
 
@@ -36,7 +36,7 @@ line(100, 150, 400, 250);
 
 Questo è il risultato che dovrebbe comparirvi: una linea nera su sfondo grigio.
 
-![La nostra prima linea.](/assets/img/Processing_line-988x1024.png)
+![La nostra prima linea.](/assets/images/Processing_line-988x1024.png)
 
 Nel caso in cui questo non avvenga, è possibile che abbiate sbagliato qualcosa nel copia-incolla. Provate a cliccare su _view raw_ e ricopiare nuovamente le due linee di codice.
 

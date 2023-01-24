@@ -2,13 +2,13 @@
 
 Nell'ultimo post abbiamo imparato cosa sono le [primitive 2D](https://blog.federicopepe.com/2015/07/primitive-2d-point-line-rect-ellipse-triangle/) e siamo riusciti a far disegnare al nostro computer alcune semplici forme geometriche sullo schermo. Nel realizzare questi semplici sketch forse qualcuno di voi avrà notato una particolarità: di default Processing colora di bianco l'interno della forma e di nero il bordo mentre lo sfondo dello sketch rimane grigio.
 
-![Processing's function ellipse()](/assets/img/sketch_150728e_Processing_ellipse-988x1024.png)
+![Processing's function ellipse()](/assets/images/sketch_150728e_Processing_ellipse-988x1024.png)
 
 ## RGB: Red, Green and Blue
 
 Prima di cominciare a utilizzare i colori è importante capire come funzionano. Alle scuole elementari si impara che attraverso la miscelazione dei tre colori primari, **rosso**, **giallo** e **blu**, si possono ottenere tutti i colori nelle diverse sfumature. Anche gli schermi funzionano in modo simile ma i tre colori di base sono **rosso**, **verde** e **blu** in inglese **RGB**.
 
-![Colori RGB](/assets/img/RGB_Color.png)
+![Colori RGB](/assets/images/RGB_Color.png)
 
 Grazie a questa immagine si può capire come ottenere i colori secondari:
 
@@ -34,7 +34,7 @@ fill(255, 0, 0);
 ellipse(250, 250, 150, 150);
 ```
 
-![Cerchio Rosso](/assets/img/Processing_RGB_CerchioRosso-988x1024.png)
+![Cerchio Rosso](/assets/images/Processing_RGB_CerchioRosso-988x1024.png)
 
 Se provo a tradurre in italiano quanto scritto nel codice, le istruzioni date al computer sarebbero:
 
@@ -55,7 +55,7 @@ ellipse(250, 250, 150, 150);
 
 Ora abbiamo aggiunto la funzione _stroke()_ assegnando i parametri rosso = 0, verde = 0, blu = 255 e questo è il risultato:
 
-![Cerchio rosso con bordo blu](/assets/img/Processing_RGB_CerchioRossoBordoBlu-988x1024.png)
+![Cerchio rosso con bordo blu](/assets/images/Processing_RGB_CerchioRossoBordoBlu-988x1024.png)
 
 Come avrete capito, se utilizzo tre parametri nelle funzioni _fill()_ e _stroke()_ sto indicando la quantità di rosso, verde e blu il cui valore deve essere compreso tra 0, il valore minimo, e 255, quello massimo.
 
@@ -88,7 +88,7 @@ stroke(0, 0, 255);
 ellipse(250, 250, 150, 150);
 ```
 
-![RGB with Transparency](/assets/img/Processing_RGB_Transparency-988x1024.png)
+![RGB with Transparency](/assets/images/Processing_RGB_Transparency-988x1024.png)
 
 ## background(), noFill() e noStroke()
 
@@ -102,7 +102,7 @@ stroke(0, 0, 255);
 ellipse(250, 250, 150, 150);
 ```
 
-![background(0)](/assets/img/Processing_background-988x1024.png)
+![background(0)](/assets/images/Processing_background-988x1024.png)
 
 Con le funzioni _noFill()_ e _noStroke()_ – attenzione alle maiuscole! – possiamo eliminare il colore del bordo o quello di riempimento. Com'è facile intuire, queste funzioni non richiedono alcun parametro.
 
@@ -110,7 +110,7 @@ Con le funzioni _noFill()_ e _noStroke()_ – attenzione alle maiuscole! – po
 
 Giustamente vi starete chiedendo: come faccio a conoscere i valori RGB di un determinato colore? Non vi preoccupate, Processing mette a disposizione uno strumento molto utile chiamato **Color Selector** accessibile dal menu _Tools > Color Selector_ la cui funzione è esattamente quella di aiutarvi nella selezione dei colori.
 
-![Color Selector](/assets/img/Processing_Color_Selector.png)
+![Color Selector](/assets/images/Processing_Color_Selector.png)
 
 Oltre ai valori RGB, troviamo anche quelli HSB e Hexadecimal di cui parleremo prossimamente.
 
@@ -157,7 +157,7 @@ Se, invece, il commento è di una sola riga, è sufficiente scrivere **//** all
 
 Il codice qui sopra darà questo risultato:
 
-![Processing RGB Color Example 1](/assets/img/Processing_RGB_ColorExample1-988x1024.png)
+![Processing RGB Color Example 1](/assets/images/Processing_RGB_ColorExample1-988x1024.png)
 
 La cosa interessante da notare è che una volta specificato un colore con la funzione _fill()_ o _stroke()_, rimarrà impostato anche per le forme successive finché non utilizziamo la funzione _noFill()_ o _noStroke()_ oppure finché non impostiamo nuovamente il colore.
 
@@ -190,7 +190,7 @@ fill(127, 255, 127);
 ellipse(300, 250, 150, 150);
 ```
 
-![Esempio 2](/assets/img/Processing_RGB_ColorExample2-988x1024.png)
+![Esempio 2](/assets/images/Processing_RGB_ColorExample2-988x1024.png)
 
 In questo secondo esempio ho utilizzato la trasparenza nei primi due cerchi rossi (notate cosa succede quando si sovrappongono). Il terzo cerchio, quello verde, non avendo un parametro per la trasparenza ed essendo l'ultimo inserito nello sketch viene disegnato "sopra" gli altri due.
 

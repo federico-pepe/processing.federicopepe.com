@@ -6,10 +6,44 @@ nav:
   - 'Introduzione':
     - 'Programmazione, creative coding e arte digitale': 'introduzione/programmazione-creative-coding-e-arte-digitale.md'
     - 'Introduzione a Processing': 'introduzione/introduzione-a-processing.md'
+    - 'Le novità di Processing 3': 'introduzione/le-novita-di-processing-3.md'
   - 'Primi passi':
     - 'Schermo, pixel e linee': 'primi-passi/schermo-pixel-e-linee.md'
     - 'Primitive 2D': 'primi-passi/primitive-2d-point-line-rect-ellipse-triangle.md'
     - 'Colori RGB': 'primi-passi/colori-rgb.md'
+    - 'Esercizio: Piet Mondrian': 'primi-passi/esercizio-1-piet-mondrian.md'
+    - 'Blocchi di codice e flusso': 'primi-passi/blocchi-di-codice-e-flusso-setup-e-draw.md'
+  - 'Variabili':
+    - 'Variabili built-in': 'primi-passi/variabili-built-in.md'
+    - 'Eventi: mouse e tastiera': 'primi-passi/eventi-mousepressed-e-keypressed.md'
+    - 'Creazione e personalizzazione': 'primi-passi/variabili-in-processing-creazione-e-personalizzazione.md'
+    - 'Operazioni matematiche': 'primi-passi/variabili-in-processing-ii-operazioni-matematiche.md'
+    - 'println e random': 'primi-passi/println-e-random.md'
+  - 'Controlli Condizionali':
+    - 'if, else, if else': 'primi-passi/controlli-condizionali-if-else-if-else.md'
+    - 'Operatori logici': 'primi-passi/controlli-condizionali-ii-operatori-logici.md'
+    - 'Esercizio 2': 'primi-passi/esercizio-2-i-quattro-quadranti.md'
+    - 'Variabili booleane': 'primi-passi/controlli-condizionali-iii-variabili-booleane.md'
+  - 'Loop':
+    - 'While': 'primi-passi/loop-while.md'
+    - 'For e nesting': 'primi-passi/loop-for-e-nesting.md'
+    - 'Funzioni personalizzate': 'primi-passi/funzioni-personalizzate.md'
+    - 'Esercizio Bouncing Ball 1': 'primi-passi/esercizio-bouncing-ball-1.md'
+    - 'Esercizio Bouncing Ball 2': 'primi-passi/esercizio-bouncing-ball-parte-2.md'
+  - 'Oggetti':
+    - 'Modularità delle funzioni': 'primi-passi/modularita-delle-funzioni.md'
+    - 'Introduzione agli oggetti': 'primi-passi/introduzione-agli-oggetti.md'
+    - 'Sintassi di classi e oggetti': 'primi-passi/oop-sintassi-di-classi-e-oggetti.md'
+    - 'Classi e oggetti, parte 2': 'primi-passi/oop-classi-e-oggetti-parte-2.md'
+    - 'Esercizio Bouncing Ball 3': 'primi-passi/esercizio-bouncing-ball-parte-3-oop.md'
+  - 'Array':
+    - 'Array: dichiarazione, inizializzazione e utilizzo': 'primi-passi/array.md'
+    - 'Array di oggetti': 'primi-passi/array-di-oggetti.md'
+    - 'Interazione tra oggetti': 'primi-passi/interazione-tra-oggetti.md'
+    - 'Array bidimensionali': 'primi-passi/array-bidimensionali-processing.md'
+    - 'Esercizio media difficoltà': 'primi-passi/array-bidimensionali-esercizio-media-difficolta-soluzione.md'
+    - 'Esercizio alta difficoltà': 'primi-passi/array-bidimensionali-esercizio-alta-difficolta-soluzione.md'
+    - 'Fine (del livello base)': 'primi-passi/fine-del-livello-base.md'
   - 'Newsletter': 'https://www.tinyletter.com/creativecoding'
   
 extra_css:
@@ -85,5 +119,6 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-
+plugins:
+  - mkdocs-video
 
