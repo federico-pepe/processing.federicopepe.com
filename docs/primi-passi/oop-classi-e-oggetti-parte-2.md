@@ -1,4 +1,4 @@
-# "OOP: Classi e oggetti, parte 2"
+# OOP: Classi e oggetti, parte 2
 
 Ripartiamo da dove ci siamo fermati con l'[ultimo post](https://blog.federicopepe.com/2016/01/oop-sintassi-di-classi-e-oggetti/): abbiamo scritto la nostra prima classe e abbiamo creato il nostro primo oggetto. Nell'approfondimento di oggi su classi e oggetti parleremo di alcune questioni importanti: come mantenere pulito il codice quando si lavora con le classi, come passare parametri al constructor e, infine, come creare _n_ oggetti.
 

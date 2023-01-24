@@ -1,4 +1,4 @@
-# "OOP: Sintassi di classi e oggetti"
+# OOP: Sintassi di classi e oggetti
 
 La settimana scorsa abbiamo fatto un'[introduzione generale alla programmazione orientata agli oggetti](https://blog.federicopepe.com/2016/01/introduzione-agli-oggetti/); con questo post entreremo nello specifico analizzando la sintassi corretta da utilizzare quando si scrive una _classe_ e quando si usa un _oggetto_ in Processing.
 
