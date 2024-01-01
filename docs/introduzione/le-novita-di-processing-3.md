@@ -1,6 +1,9 @@
 # Le novità di Processing 3
 
-Il 30 settembre è stata rilasciata una nuova major release di Processing: la versione 3. Prendendo spunto dal [video ufficiale](https://vimeo.com/140600280) con cui [Daniel Shiffman](http://www.shiffman.net) illustra le principali novità del software, ho deciso di scrivere questo post, soprattutto per chi ha difficoltà con l'inglese.
+!!! warning "Attenzione"
+    Processing è un linguaggio di programmazione in costante evoluzione. Fate sempre riferimento al sito ufficiale [www.processing.org](https://www.processing.org) per verificare gli ultimi aggiornamenti disponibili.
+
+Il 30 settembre 2015 è stata rilasciata una nuova major release di Processing: la versione 3. Prendendo spunto dal [video ufficiale](https://vimeo.com/140600280) con cui [Daniel Shiffman](http://www.shiffman.net) illustra le principali novità del software, ho deciso di scrivere questo post, soprattutto per chi ha difficoltà con l'inglese.
 
 ## Nuova icona, nuovo editor
 
