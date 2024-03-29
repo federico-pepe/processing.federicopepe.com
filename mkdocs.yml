@@ -47,6 +47,7 @@ nav:
     - 'Fine (del livello base)': 'primi-passi/fine-del-livello-base.md'
   - 'Librerie di Processing':
     - 'Estendere le funzionalità di Processing': '2016-05-11-librerie-di-processing.md'
+    - '2021-02-22-libreria-nice-color-palettes-per-processing.md'
   - 'Funzioni matematiche':
     - 'math/2016-05-22-modulo-e-probabilita.md'
     - 'math/2016-06-01-random-vs-perlin-noise.md'
