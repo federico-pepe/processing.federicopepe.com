@@ -7,6 +7,7 @@ nav:
     - 'Programmazione, creative coding e arte digitale': 'introduzione/programmazione-creative-coding-e-arte-digitale.md'
     - 'Introduzione a Processing': 'introduzione/introduzione-a-processing.md'
     - 'Le novità di Processing 3': 'introduzione/le-novita-di-processing-3.md'
+    - 'Ricominciamo': 'introduzione/2016-05-04-ricominciare.md'
   - 'Primi passi':
     - 'Schermo, pixel e linee': 'primi-passi/schermo-pixel-e-linee.md'
     - 'Primitive 2D': 'primi-passi/primitive-2d-point-line-rect-ellipse-triangle.md'
@@ -44,7 +45,48 @@ nav:
     - 'Esercizio media difficoltà': 'primi-passi/array-bidimensionali-esercizio-media-difficolta-soluzione.md'
     - 'Esercizio alta difficoltà': 'primi-passi/array-bidimensionali-esercizio-alta-difficolta-soluzione.md'
     - 'Fine (del livello base)': 'primi-passi/fine-del-livello-base.md'
-  - 'Newsletter': 'https://www.tinyletter.com/creativecoding'
+  - 'Librerie di Processing':
+    - 'Estendere le funzionalità di Processing': '2016-05-11-librerie-di-processing.md'
+  - 'Funzioni matematiche':
+    - 'math/2016-05-22-modulo-e-probabilita.md'
+    - 'math/2016-06-01-random-vs-perlin-noise.md'
+    - 'math/2016-07-07-altri-esempi-con-la-funzione-noise.md'
+    - 'math/2016-07-12-2d-perlin-noise.md'
+    - 'math/2016-07-19-angoli-randians-e-degree.md'
+    - 'math/2016-07-21-sin-e-cos-onde-funzioni-cicliche.md'
+    - 'math/2016-08-04-funzioni-ricorsive.md'
+    - 'math/2016-10-06-trasformazioni-translate-rotate-scale.md'
+    - 'math/2016-10-25-trasformazioni-pushmatrix-popmatrix.md'
+  - 'Testi':
+    - 'text/2016-11-11-testi-processing.md'
+    - 'text/2016-12-20-caricare-file-esterni-processing.md'
+    - 'text/2017-01-03-font-personalizzati-processing.md'
+    - 'text/2017-01-19-esercizio-con-il-testo.md'
+  - 'Immagini':
+    - 'immagini/2017-03-12-utilizzare-immagini-in-processing.md'
+    - 'immagini/2017-03-19-modificare-immagini-tint-filtro.md'
+    - 'immagini/2017-03-26-array-pixel-loadpixels-updatepixels.md'
+    - 'immagini/2017-04-29-processare-le-immagini-processing.md'
+    - 'immagini/2017-06-25-modificare-la-dimensione-della-finestra-base-allimmagine-caricata.md'
+    - 'immagini/2017-08-28-palette-colori-da-immagine.md'
+    - 'immagini/2017-09-23-glitch-di-unimmagine.md'
+  - 'Data Visualization':
+    - 'data/2018-01-07-lavorare-con-i-dati.md'
+    - 'data/2018-03-25-dati-read-file-csv.md'
+    - 'data/2018-04-01-da-una-tabella-csv-agli-array.md'
+    - 'data/2018-04-22-grafico-a-barre-in-processing.md' 
+    - 'data/2018-04-29-grafico-a-barre-2.md'
+    - 'data/2018-05-20-grafico-a-linee.md'
+    - 'data/2019-06-23-universita-cmti-2018-2019.md'
+    - 'data/2019-07-24-universita-cmti-2018-2019-2.md'
+    - 'data/2019-08-15-il-problema-dei-grafici-a-linee-curve.md' 
+    - 'data/2020-05-31-creare-delle-palette-di-colori-in-modo-casuale.md'
+  - 'Processing e Ableton': '2017-03-05-processing-ableton-midi-sincronizzare.md'
+  - 'Quick Draw! Google': '2017-05-28-quick-draw-google-processing.md'
+  - 'Coding Rescue':
+    - 'Coding Rescue #1': 'coding-rescue/2017-06-11-coding-rescue-1.md'
+    - 'Coding Rescue #2': 'coding-rescue/2017-10-26-coding-rescue-2-binarizza.md'
+    - 'Coding Rescue #3': 'coding-rescue/2018-01-21-coding-rescue-3-cambiare-la-tonalita-pixel.md'
   
 extra_css:
   - stylesheets/extra.css
